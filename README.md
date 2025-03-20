@@ -18,3 +18,8 @@ The vision of this project is to provide a simple and efficient token system tha
 - **Transfer and Approval**: Basic token transfer functions with spender approval.
 - **Minting and Burning**: Users can increase or decrease the total supply.
 - **No OpenZeppelin Dependencies**: Lightweight and self-contained contract.
+
+
+##Contract Address
+0x89366C71f7321EA043711283ab89BA23AAE35361
+![image](https://github.com/user-attachments/assets/2c16367f-9645-47d4-9fb8-c9f69af7bc76)
