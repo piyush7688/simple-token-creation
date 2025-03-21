@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Token DApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Token Dashboard</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <p id="walletAddress">Not connected</p>
+        <h2>Token Balance: <span id="tokenBalance">0</span></h2>
+        
+        <div class="actions">
+            <input type="text" id="recipient" placeholder="Recipient Address">
+            <input type="number" id="amount" placeholder="Amount">
+            <button onclick="transferTokens()">Transfer</button>
+        </div>
+        
+        <div class="actions">
+            <input type="number" id="mintAmount" placeholder="Mint Amount">
+            <button onclick="mintTokens()">Mint</button>
+            <input type="number" id="burnAmount" placeholder="Burn Amount">
+            <button onclick="burnTokens()">Burn</button>
+        </div>
+        
+        <div class="actions">
+            <input type="text" id="spender" placeholder="Spender Address">
+            <input type="number" id="approveAmount" placeholder="Approval Amount">
+            <button onclick="approveTokens()">Approve</button>
+        </div>
+        
+        <div class="actions">
+            <input type="text" id="fromAddress" placeholder="From Address">
+            <input type="text" id="toAddress" placeholder="To Address">
+            <input type="number" id="transferFromAmount" placeholder="Amount">
+            <button onclick="transferFromTokens()">Transfer From</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
