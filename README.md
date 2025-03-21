@@ -23,3 +23,7 @@ The vision of this project is to provide a simple and efficient token system tha
 ##Contract Address
 0x89366C71f7321EA043711283ab89BA23AAE35361
 ![image](https://github.com/user-attachments/assets/2c16367f-9645-47d4-9fb8-c9f69af7bc76)
+
+
+##FRONTEND 
+![Screenshot 2025-03-21 152008](https://github.com/user-attachments/assets/e5711093-2ab6-42d4-bac5-97c66cc0a5f9)
